@@ -11,8 +11,8 @@ pageextension 70000 "KNH Bus. Mgr." extends "Business Manager Role Center"
             action(KNHProblems)
             {
                 ApplicationArea = All;
-                ToolTip = 'KNH Greet';
-                Caption = 'KNH Greet';
+                ToolTip = 'Greet';
+                Caption = 'Greet';
                 RunObject = codeunit "KNH Greet";
             }
         }

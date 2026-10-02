@@ -7,7 +7,7 @@ codeunit 70000 "KNH Greet"
         name: Text;
         selection: Integer;
         options: Text;
-        functionLbl: Label 'Keith, Mark, Paul';
+        functionLbl: Label 'Keith, Mark, Paul, Mary, ANO', comment = 'List of names to choose from';
         selectionLbl: Label 'Choose one of the following options:';
     begin
         options := functionLbl;
@@ -21,9 +21,12 @@ codeunit 70000 "KNH Greet"
                 name := 'Paul';
             4:
                 name := 'Mary';
+            5:
+                name := '';
+            else
+                exit;
         end;
-        if name = '' then
-            Greet(name);
+        this.Greet(name);
     end;
 
     procedure Greet(Name: Text): Text

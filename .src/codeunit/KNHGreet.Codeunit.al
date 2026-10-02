@@ -19,7 +19,7 @@ codeunit 70000 "KNH Greet"
                 name := 'Mark';
             3:
                 name := 'Paul';
-            else
+            4:
                 name := '';
         end;
         Greet(name);

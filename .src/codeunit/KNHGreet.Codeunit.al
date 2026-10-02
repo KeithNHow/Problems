@@ -1,3 +1,6 @@
+///<Summary>
+/// This codeunit is a simple example of how to use a codeunit in AL. It prompts the user to select a name from a list and then displays a greeting message.
+///</Summary>
 namespace KNHProblems;
 
 codeunit 70000 "KNH Greet"

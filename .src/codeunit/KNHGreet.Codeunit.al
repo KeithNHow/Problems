@@ -20,9 +20,10 @@ codeunit 70000 "KNH Greet"
             3:
                 name := 'Paul';
             4:
-                name := '';
+                name := 'Mary';
         end;
-        Greet(name);
+        if name = '' then
+            Greet(name);
     end;
 
     procedure Greet(Name: Text): Text

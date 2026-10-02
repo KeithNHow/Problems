@@ -1,7 +1,7 @@
 namespace KNHProblems;
 using Microsoft.Finance.RoleCenters;
 
-pageextension 70000 "KNH Business Manager 2" extends "Business Manager Role Center"
+pageextension 70000 "KNH Bus. Mgr." extends "Business Manager Role Center"
 
 {
     actions
